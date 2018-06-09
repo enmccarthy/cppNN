@@ -1,3 +1,7 @@
+#include <cudnn.h>
+#include <cassert>
+#include <cstdlib>
+#include <iostream>
 
 int convolution(){
     cudnnHandle_t cudnn;
